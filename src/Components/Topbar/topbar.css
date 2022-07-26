@@ -1,0 +1,92 @@
+.topbar{
+     height: 50px;
+     width: 100%;
+     background-color: #1877f2;
+     display: flex;
+     align-items: center;
+     position: sticky;
+     top: 0;
+     z-index: 999;
+}
+.logo{
+     font-style: 24px;
+     margin-left: 20px;
+     font-weight: bold;
+     color: white;
+     cursor: pointer;
+}
+.searchbar{
+     width: 100%;
+     height: 30px;
+     background-color: white;
+     border-radius: 30px;
+     display: flex;
+     align-items: center;
+}
+
+.searchIcon{
+     font-size: 20px !important;
+     margin-left: 10px;
+}
+
+.searchInput{
+     border: none;
+     width: 70%;
+}
+
+.searchInput:focus{
+     outline: none;
+}
+
+.tbLeft{
+     flex:3;
+    
+}
+
+.tbCenter{
+     flex: 5;
+  
+}
+
+.tbRight{
+     flex: 4;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     color: white;
+}
+
+.tbLink{
+     margin-right: 10px;
+     font-size: 14px;
+     cursor: pointer;
+}
+
+.tbIcons{
+     display: flex;
+}
+
+.tbIconItem{
+     margin-right: 15px;
+     cursor: pointer;
+     position: relative;
+}
+
+.badge{
+     width: 15px;
+     height: 15px;
+     background-color: red;
+     border-radius: 50%;
+     position: absolute;
+     top: -10px;
+     left: 10px;
+     text-align: center;
+     font-size: 10px;
+     align-items: center;
+}
+.tbImg{
+     width: 32px;
+     height: 32px;
+     object-fit: cover;
+     border-radius: 50%;
+}

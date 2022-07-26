@@ -1,0 +1,122 @@
+.rightbar{
+     flex: 3.5;
+}
+
+.rightbarWrapper{
+     padding: 20px 20px 0 0;
+}
+.bdayContainer{
+     display: flex;
+     align-items: center;
+}
+.giftImg{
+     width: 40px;
+     height: 40px;
+     margin-right: 10px;
+}
+
+.bdayText{
+     font-weight: 300;
+     font-size: 15px;
+}
+
+.ad{
+     width: 100%;
+     border-radius: 10px;
+     margin: 30px 0px;
+}
+
+.rbTitle{
+     margin-bottom: 20px;
+}
+
+.rbFriendList{
+     padding: 0;
+     margin: 0;
+     list-style-type: none;
+
+}
+
+.rbFriend{
+     display: flex;
+     align-items: center;
+     margin-bottom: 15px;
+
+}
+
+.imageContainer{
+     position: relative;
+     width: 12%;
+}
+
+.rbProPic{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     object-fit: cover;
+}
+
+.rbOnline{
+     width: 12px;
+     height: 12px;
+     border-radius: 50%;
+     background-color: limegreen;
+     position: absolute;
+     top: 0;
+     right: 5px;
+     border:  2px solid white;
+     
+}
+.rbUsername{
+     font-weight: 500;
+}
+
+.rbTitle{
+     font-size: 18px;
+     font-weight: 500;
+     margin-bottom: 20px;
+}
+
+.rbInfo{
+     margin-bottom: 30px;
+}
+
+.rbInfoItem{
+     margin: 20px;
+}
+
+.infoKey{
+     font-weight: 500;
+     margin-right: 15px;
+     color: #555;
+}
+
+.infoValue{
+     font-weight: 300;
+}
+
+.rbFollowings{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+
+.rbFollower{
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 10px;
+     cursor: pointer;
+}
+
+.followerName{
+     font-size: 12px;
+}
+
+
+
+.rbFollowerImg{
+     width: 100px;
+     height: 100px;
+     object-fit: cover;
+     border-radius: 5px;
+}
